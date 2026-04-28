@@ -175,7 +175,7 @@ const ContactPage = () => {
                     <div>
                       <label className="block text-sm font-semibold text-[#1a2f5e] mb-2">{t('contact.phoneLabel')}</label>
                       <input
-                        type="text"
+                        type="tel"
                         value={formData.phone}
                         onChange={e => update('phone', e.target.value)}
                         placeholder={t('contact.phonePlaceholder')}
