@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Hjem",
+    "about": "Om os",
+    "services": "Ydelser",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Vi bygger Danmarks fremtid i beton",
+    "subtitle": "Premium betonelement-produktion til infrastruktur, lufthavne og kommercielle projekter i hele Skandinavien.",
+    "cta": "Kontakt os"
+  },
+  "home": {
+    "introTitle": "Pålidelige betonløsninger fra dag ét",
+    "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "stat1Value": "25+",
+    "stat1Label": "Års erfaring",
+    "stat2Value": "500+",
+    "stat2Label": "Projekter gennemført",
+    "stat3Value": "100%",
+    "stat3Label": "Kvalitetscertificeret"
+  },
+  "about": {
+    "title": "Om Infra-Beton ApS",
+    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel mauris eget lacus tincidunt ultricies. Fusce id sapien at nunc fermentum vestibulum vel sed justo. Nullam auctor, nunc eget aliquam tincidunt, nisi nisl aliquam nunc, vitae aliquam nunc nisi vel nunc.",
+    "text2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "text3": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "statsTitle": "Vores resultater",
+    "stat1Value": "25+",
+    "stat1Label": "Års erfaring",
+    "stat2Value": "500+",
+    "stat2Label": "Projekter leveret",
+    "stat3Value": "50+",
+    "stat3Label": "Lufthavnsprojekter",
+    "stat4Value": "120+",
+    "stat4Label": "Teammedlemmer"
+  },
+  "services": {
+    "title": "Vores ydelser",
+    "subtitle": "Omfattende betonløsninger til alle projektstørrelser",
+    "service1Title": "Betonelement-produktion",
+    "service1Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Specialfremstillede præfabrikerede elementer til konstruktion og arkitektur.",
+    "service2Title": "Lufthavns-betonforsegling",
+    "service2Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Specialiserede forseglingløsninger til landingsbaner, rullebaner og forpladser, der opfylder internationale luftfartsstandarder.",
+    "service3Title": "Infrastrukturløsninger",
+    "service3Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Storskala infrastruktur-betonarbejde, herunder broer, tunneler og kommercielle fundamentsystemer."
+  },
+  "contact": {
+    "title": "Kontakt os",
+    "subtitle": "Klar til at drøfte dit næste projekt? Kontakt vores team.",
+    "infoTitle": "Kontaktoplysninger",
+    "company": "Infra-Beton ApS",
+    "address": "Lundsbjerg Industrivej 14, 6200 Aabenraa",
+    "phone": "+45 XX XX XX XX",
+    "email": "info@infra-beton.dk",
+    "formTitle": "Send os en besked",
+    "nameLabel": "Navn",
+    "namePlaceholder": "Dit fulde navn",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "din@email.dk",
+    "phoneLabel": "Telefon (valgfrit)",
+    "phonePlaceholder": "+45 ...",
+    "messageLabel": "Besked",
+    "messagePlaceholder": "Fortæl os om dit projekt...",
+    "submit": "Send besked",
+    "successTitle": "Besked sendt!",
+    "successText": "Tak for din besked. Vi vender tilbage hurtigst muligt.",
+    "requiredField": "Dette felt er påkrævet",
+    "invalidEmail": "Indtast venligst en gyldig e-mailadresse"
+  },
+  "footer": {
+    "description": "Premium betonelement-produktion til infrastruktur og lufthavnsprojekter i Danmark og Skandinavien.",
+    "quickLinks": "Genveje",
+    "contactInfo": "Kontaktoplysninger",
+    "rights": "Alle rettigheder forbeholdes."
+  }
+}
