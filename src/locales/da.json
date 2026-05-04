@@ -12,7 +12,7 @@
   },
   "home": {
     "introTitle": "Pålidelige betonløsninger fra dag ét",
-    "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "introText": "Vi specialiserer os i betonarbejde til lufthavne og tung infrastruktur. Med fokus på præcision, holdbarhed og overholdelse af internationale standarder leverer vi løsninger der holder — også under de hårdeste forhold.",
     "stat1Value": "25+",
     "stat1Label": "Års erfaring",
     "stat2Value": "500+",
@@ -22,9 +22,9 @@
   },
   "about": {
     "title": "Om Infra-Beton ApS",
-    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel mauris eget lacus tincidunt ultricies. Fusce id sapien at nunc fermentum vestibulum vel sed justo. Nullam auctor, nunc eget aliquam tincidunt, nisi nisl aliquam nunc, vitae aliquam nunc nisi vel nunc.",
-    "text2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "text3": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+    "text1": "Infra-Beton ApS er en dansk betonvirksomhed med base i Aabenraa. Vi udfører betonarbejde til krævende projekter inden for luftfart og infrastruktur, hvor kravene til kvalitet og dokumentation er høje.",
+    "text2": "Vores kernekompetence er lufthavnsrelateret betonarbejde — herunder forsegling og renovering af landingsbaner, rullebaner og forpladser. Vi arbejder efter internationale luftfartsstandarder og samarbejder tæt med bygherrer og rådgivere gennem hele projektforløbet.",
+    "text3": "Vi er en mindre, specialiseret virksomhed, hvilket betyder kort beslutningsvej, direkte kommunikation og personligt ansvar for kvaliteten i hvert enkelt projekt.",
     "statsTitle": "Vores resultater",
     "stat1Value": "25+",
     "stat1Label": "Års erfaring",
@@ -39,11 +39,11 @@
     "title": "Vores ydelser",
     "subtitle": "Omfattende betonløsninger til alle projektstørrelser",
     "service1Title": "Betonelement-produktion",
-    "service1Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Specialfremstillede præfabrikerede elementer til konstruktion og arkitektur.",
+    "service1Text": "Levering og montering af betonelementer til infrastrukturprojekter. Vi arbejder med præfabrikerede løsninger tilpasset projektets specifikke krav til bæreevne og holdbarhed.",
     "service2Title": "Lufthavns-betonforsegling",
-    "service2Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Specialiserede forseglingløsninger til landingsbaner, rullebaner og forpladser, der opfylder internationale luftfartsstandarder.",
+    "service2Text": "Specialiseret forsegling og renovering af betonflader på lufthavne — landingsbaner, rullebaner og forpladser. Vi arbejder i overensstemmelse med internationale luftfartsstandarder og er vant til at operere under strenge krav til sikkerhed og dokumentation.",
     "service3Title": "Infrastrukturløsninger",
-    "service3Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Storskala infrastruktur-betonarbejde, herunder broer, tunneler og kommercielle fundamentsystemer."
+    "service3Text": "Betonarbejde til større infrastrukturprojekter som veje, broer og industrianlæg. Vi påtager os opgaver der kræver teknisk ekspertise og evnen til at arbejde under komplekse forhold."
   },
   "contact": {
     "title": "Kontakt os",

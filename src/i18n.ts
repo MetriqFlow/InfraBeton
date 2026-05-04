@@ -5,8 +5,8 @@ import da from './locales/da.json';
 import de from './locales/de.json';
 
 i18n.use(initReactI18next).init({
-  fallbackLng: 'en',
-  lng: 'en',
+  fallbackLng: 'da',
+  lng: 'da',
   interpolation: { escapeValue: false },
   resources: {
     en: { translation: en },
