@@ -52,10 +52,10 @@ const ContactPage = () => {
   };
 
   const contactItems = [
-    { icon: Building2, label: 'Virksomhed', text: `${t('contact.company')}\nCVR: 46270495` },
-    { icon: MapPin, label: 'Adresse', text: t('contact.address') },
     { icon: Phone, label: 'Telefon', text: t('contact.phone') },
     { icon: Mail, label: 'E-mail', text: t('contact.email') },
+    { icon: MapPin, label: 'Adresse', text: t('contact.address') },
+    { icon: Building2, label: 'Virksomhed', text: `${t('contact.company')}\nCVR: 46270495` },
   ];
 
   return (
