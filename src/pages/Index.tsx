@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Building2, Award, ShieldCheck, Factory, Plane, Landmark, ArrowRight } from 'lucide-react';
 import Layout from '@/components/Layout';
-import heroImage from '@/assets/hero-image.webp';
+import heroImage from '@/assets/Hero-image.webp';
 
 const HomePage = () => {
   const { t } = useTranslation();
