@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Building2, CheckCircle, ArrowRight } from 'lucide-react';
 import Layout from '@/components/Layout';
+import flemmingBille from '@/assets/flemming-bille.png';
 
 interface ContactFormData {
   name: string;
@@ -94,6 +95,17 @@ const ContactPage = () => {
               className="lg:col-span-2 space-y-6"
             >
               <h2 className="text-2xl font-bold text-[#1a2f5e]">{t('contact.infoTitle')}</h2>
+
+              {/* Person card */}
+              <div className="bg-white rounded-xl border border-[#e0dbd4] p-6 flex items-center gap-5">
+                <div className="w-20 h-20 rounded-full border border-[#e0dbd4] shrink-0 overflow-hidden">
+                  <img src={flemmingBille} alt="Flemming Bille" className="w-full h-full object-cover" />
+                </div>
+                <div>
+                  <p className="text-xs font-semibold text-[#DE2301] uppercase tracking-wider mb-1">Direktør</p>
+                  <p className="text-lg font-bold text-[#1a2f5e]">Flemming Bille</p>
+                </div>
+              </div>
 
               <div className="space-y-4">
                 {contactItems.map((item, i) => (
