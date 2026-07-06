@@ -99,7 +99,7 @@ const ContactPage = () => {
               {/* Person card */}
               <div className="bg-white rounded-xl border border-[#e0dbd4] p-6 flex items-center gap-5">
                 <div className="w-20 h-20 rounded-full border border-[#e0dbd4] shrink-0 overflow-hidden">
-                  <img src={flemmingBille} alt="Flemming Bille" className="w-full h-full object-cover" />
+                  <img src={flemmingBille} alt="Flemming Bille" className="w-full h-full object-cover" loading="lazy" decoding="async" />
                 </div>
                 <div>
                   <p className="text-xs font-semibold text-[#DE2301] uppercase tracking-wider mb-1">Direktør</p>
