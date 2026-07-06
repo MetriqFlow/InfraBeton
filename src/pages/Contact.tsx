@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { MapPin, Phone, Mail, Building2, CheckCircle, ArrowRight } from 'lucide-react';
 import Layout from '@/components/Layout';
+import flemmingBille from '@/assets/flemming-bille.png';
 
 interface ContactFormData {
   name: string;
@@ -51,10 +52,10 @@ const ContactPage = () => {
   };
 
   const contactItems = [
-    { icon: Building2, label: 'Virksomhed', text: `${t('contact.company')}\nCVR: 46270495` },
-    { icon: MapPin, label: 'Adresse', text: t('contact.address') },
     { icon: Phone, label: 'Telefon', text: t('contact.phone') },
     { icon: Mail, label: 'E-mail', text: t('contact.email') },
+    { icon: MapPin, label: 'Adresse', text: t('contact.address') },
+    { icon: Building2, label: 'Virksomhed', text: `${t('contact.company')}\nCVR: 46270495` },
   ];
 
   return (
@@ -94,6 +95,17 @@ const ContactPage = () => {
               className="lg:col-span-2 space-y-6"
             >
               <h2 className="text-2xl font-bold text-[#1a2f5e]">{t('contact.infoTitle')}</h2>
+
+              {/* Person card */}
+              <div className="bg-white rounded-xl border border-[#e0dbd4] p-6 flex items-center gap-5">
+                <div className="w-20 h-20 rounded-full border border-[#e0dbd4] shrink-0 overflow-hidden">
+                  <img src={flemmingBille} alt="Flemming Bille" className="w-full h-full object-cover" />
+                </div>
+                <div>
+                  <p className="text-xs font-semibold text-[#DE2301] uppercase tracking-wider mb-1">Direktør</p>
+                  <p className="text-lg font-bold text-[#1a2f5e]">Flemming Bille</p>
+                </div>
+              </div>
 
               <div className="space-y-4">
                 {contactItems.map((item, i) => (
@@ -175,7 +187,7 @@ const ContactPage = () => {
                     <div>
                       <label className="block text-sm font-semibold text-[#1a2f5e] mb-2">{t('contact.phoneLabel')}</label>
                       <input
-                        type="text"
+                        type="tel"
                         value={formData.phone}
                         onChange={e => update('phone', e.target.value)}
                         placeholder={t('contact.phonePlaceholder')}

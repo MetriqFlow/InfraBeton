@@ -1,77 +1,77 @@
 {
   "nav": {
-    "home": "Home",
-    "about": "About Us",
-    "services": "Our Services",
-    "contact": "Contact"
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Leistungen",
+    "contact": "Kontakt"
   },
   "hero": {
-    "title": "Building Denmark's Future in Concrete",
-    "subtitle": "Premium concrete element manufacturing for infrastructure, airports, and commercial projects across Scandinavia.",
-    "cta": "Contact Us"
+    "title": "Wir bauen Dänemarks Zukunft in Beton",
+    "subtitle": "Premium-Betonelementfertigung für Infrastruktur, Flughäfen und gewerbliche Projekte in ganz Skandinavien.",
+    "cta": "Kontaktieren Sie uns"
   },
   "home": {
-    "introTitle": "Trusted Concrete Solutions Since Day One",
+    "introTitle": "Zuverlässige Betonlösungen von Anfang an",
     "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "stat1Value": "25+",
-    "stat1Label": "Years of Experience",
+    "stat1Label": "Jahre Erfahrung",
     "stat2Value": "500+",
-    "stat2Label": "Projects Completed",
+    "stat2Label": "Abgeschlossene Projekte",
     "stat3Value": "100%",
-    "stat3Label": "Quality Certified"
+    "stat3Label": "Qualitätszertifiziert"
   },
   "about": {
-    "title": "About Infra-Beton ApS",
+    "title": "Über Infra-Beton ApS",
     "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel mauris eget lacus tincidunt ultricies. Fusce id sapien at nunc fermentum vestibulum vel sed justo. Nullam auctor, nunc eget aliquam tincidunt, nisi nisl aliquam nunc, vitae aliquam nunc nisi vel nunc.",
     "text2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "text3": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "statsTitle": "Our Track Record",
+    "statsTitle": "Unsere Erfolgsbilanz",
     "stat1Value": "25+",
-    "stat1Label": "Years of Experience",
+    "stat1Label": "Jahre Erfahrung",
     "stat2Value": "500+",
-    "stat2Label": "Projects Delivered",
+    "stat2Label": "Gelieferte Projekte",
     "stat3Value": "50+",
-    "stat3Label": "Airport Projects",
+    "stat3Label": "Flughafenprojekte",
     "stat4Value": "120+",
-    "stat4Label": "Team Members"
+    "stat4Label": "Teammitglieder"
   },
   "services": {
-    "title": "Our Services",
-    "subtitle": "Comprehensive concrete solutions for every project scale",
-    "service1Title": "Concrete Element Manufacturing",
-    "service1Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Custom precast elements for structural and architectural applications.",
-    "service2Title": "Airport Concrete Sealing",
-    "service2Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Specialized sealing solutions for airport runways, taxiways, and aprons meeting international aviation standards.",
-    "service3Title": "Infrastructure Solutions",
-    "service3Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Large-scale infrastructure concrete work including bridges, tunnels, and commercial foundation systems."
+    "title": "Unsere Leistungen",
+    "subtitle": "Umfassende Betonlösungen für jede Projektgröße",
+    "service1Title": "Betonelementfertigung",
+    "service1Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maßgefertigte Fertigteile für konstruktive und architektonische Anwendungen.",
+    "service2Title": "Flughafen-Betonversiegelung",
+    "service2Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Spezialisierte Versiegelungslösungen für Start- und Landebahnen, Rollbahnen und Vorfelder nach internationalen Luftfahrtstandards.",
+    "service3Title": "Infrastrukturlösungen",
+    "service3Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Großangelegte Infrastruktur-Betonarbeiten einschließlich Brücken, Tunnel und gewerbliche Fundamentsysteme."
   },
   "contact": {
-    "title": "Get In Touch",
-    "subtitle": "Ready to discuss your next project? Reach out to our team.",
-    "infoTitle": "Contact Information",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Bereit, Ihr nächstes Projekt zu besprechen? Kontaktieren Sie unser Team.",
+    "infoTitle": "Kontaktinformationen",
     "company": "Infra-Beton ApS",
     "address": "Lundsbjerg Industrivej 14, 6200 Aabenraa",
     "phone": "+45 XX XX XX XX",
     "email": "info@infra-beton.dk",
-    "formTitle": "Send Us a Message",
+    "formTitle": "Senden Sie uns eine Nachricht",
     "nameLabel": "Name",
-    "namePlaceholder": "Your full name",
-    "emailLabel": "Email",
-    "emailPlaceholder": "your@email.com",
-    "phoneLabel": "Phone (optional)",
-    "phonePlaceholder": "+45 ...",
-    "messageLabel": "Message",
-    "messagePlaceholder": "Tell us about your project...",
-    "submit": "Send Message",
-    "successTitle": "Message Sent!",
-    "successText": "Thank you for your message. We will get back to you as soon as possible.",
-    "requiredField": "This field is required",
-    "invalidEmail": "Please enter a valid email address"
+    "namePlaceholder": "Ihr vollständiger Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihre@email.de",
+    "phoneLabel": "Telefon (optional)",
+    "phonePlaceholder": "+49 ...",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt...",
+    "submit": "Nachricht senden",
+    "successTitle": "Nachricht gesendet!",
+    "successText": "Vielen Dank für Ihre Nachricht. Wir werden uns so schnell wie möglich bei Ihnen melden.",
+    "requiredField": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
   },
   "footer": {
-    "description": "Premium concrete element manufacturing for infrastructure and airport projects across Denmark and Scandinavia.",
-    "quickLinks": "Quick Links",
-    "contactInfo": "Contact Info",
-    "rights": "All rights reserved."
+    "description": "Premium-Betonelementfertigung für Infrastruktur- und Flughafenprojekte in Dänemark und Skandinavien.",
+    "quickLinks": "Schnelllinks",
+    "contactInfo": "Kontaktinformationen",
+    "rights": "Alle Rechte vorbehalten."
   }
 }

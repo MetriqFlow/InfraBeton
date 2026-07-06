@@ -2,9 +2,9 @@ import { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Building2, Award, ShieldCheck, Factory, Plane, Landmark, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { Building2, Award, ShieldCheck, Factory, Plane, Landmark, ArrowRight } from 'lucide-react';
 import Layout from '@/components/Layout';
-import heroImage from '@/assets/hero-concrete.jpg';
+import heroImage from '@/assets/Hero-image.webp';
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -34,13 +34,6 @@ const HomePage = () => {
     { icon: Landmark, title: t('services.service3Title'), text: t('services.service3Text') },
   ];
 
-  const qualities = [
-    'ISO 9001:2015 certificeret',
-    'CE-mærkede produkter',
-    'Skandinavisk leveringsnetværk',
-    'Teknisk rådgivning inkluderet',
-  ];
-
   return (
     <Layout>
       {/* HERO */}
@@ -61,16 +54,6 @@ const HomePage = () => {
               transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
               className="max-w-2xl"
             >
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.2, duration: 0.6 }}
-                className="inline-flex items-center gap-2 mb-6 px-3 py-1.5 rounded-full border border-[#DE2301]/40 bg-[#DE2301]/10 text-sm font-medium text-white/80"
-              >
-                <span className="w-1.5 h-1.5 rounded-full bg-[#DE2301] animate-pulse" />
-                Dansk betonelement-produktion siden 1999
-              </motion.div>
-
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05] mb-6 text-white tracking-tight">
                 Vi bygger <br />
                 <span className="text-[#DE2301]">Danmarks</span><br />
@@ -102,27 +85,6 @@ const HomePage = () => {
         </motion.div>
 
         <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-[#f5f3ef] to-transparent" />
-      </section>
-
-      {/* TRUST BAR */}
-      <section className="py-5 bg-[#f5f3ef] border-b border-[#e0dbd4]">
-        <div className="container">
-          <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-3">
-            {qualities.map((q, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 8 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.08 }}
-                className="flex items-center gap-2 text-sm font-medium text-[#1a2f5e]/65"
-              >
-                <CheckCircle2 size={15} className="text-[#DE2301] shrink-0" />
-                {q}
-              </motion.div>
-            ))}
-          </div>
-        </div>
       </section>
 
       {/* INTRO */}
