@@ -2,9 +2,10 @@ import { useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { Building2, Award, ShieldCheck, Factory, Plane, Landmark, ArrowRight } from 'lucide-react';
+import { Factory, Plane, Landmark, ArrowRight } from 'lucide-react';
 import Layout from '@/components/Layout';
 import heroImage from '@/assets/Hero-image.webp';
+import aboutImage from '@/assets/about-runway.webp';
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -14,19 +15,6 @@ const HomePage = () => {
   const heroOpacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   useEffect(() => { window.scrollTo(0, 0); }, []);
-
-  const stats = [
-    { icon: Building2, value: t('home.stat1Value'), label: t('home.stat1Label') },
-    { icon: Award, value: t('home.stat2Value'), label: t('home.stat2Label') },
-    { icon: ShieldCheck, value: t('home.stat3Value'), label: t('home.stat3Label') },
-  ];
-
-  const aboutStats = [
-    { value: t('about.stat1Value'), label: t('about.stat1Label') },
-    { value: t('about.stat2Value'), label: t('about.stat2Label') },
-    { value: t('about.stat3Value'), label: t('about.stat3Label') },
-    { value: t('about.stat4Value'), label: t('about.stat4Label') },
-  ];
 
   const services = [
     { icon: Factory, title: t('services.service1Title'), text: t('services.service1Text') },
@@ -98,30 +86,6 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* STATS CARDS */}
-      <section className="pb-20 bg-[#f5f3ef]">
-        <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {stats.map((stat, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.12 }}
-                className="group bg-white rounded-xl p-8 border border-[#e0dbd4] hover:border-[#DE2301]/30 hover:shadow-xl hover:shadow-[#DE2301]/5 transition-all duration-300"
-              >
-                <div className="w-12 h-12 rounded-lg bg-[#DE2301]/10 flex items-center justify-center mb-5 group-hover:bg-[#DE2301]/15 transition-colors">
-                  <stat.icon className="text-[#DE2301]" size={24} />
-                </div>
-                <div className="text-4xl font-bold text-[#1a2f5e] mb-1">{stat.value}</div>
-                <div className="text-[#1a2f5e]/55 font-medium">{stat.label}</div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ABOUT */}
       <section id="about" className="py-24 bg-white">
         <div className="container">
@@ -133,11 +97,8 @@ const HomePage = () => {
               transition={{ duration: 0.7 }}
               className="relative"
             >
-              <div className="aspect-[4/3] rounded-2xl overflow-hidden bg-[#1a2f5e]/5 border border-[#e0dbd4] flex items-center justify-center">
-                <div className="text-center text-[#1a2f5e]/30">
-                  <div className="text-7xl mb-3">🏗️</div>
-                  <p className="text-sm font-medium">Billede af anlæg</p>
-                </div>
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-[#e0dbd4]">
+                <img src={aboutImage} alt="Lufthavnsanlæg" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 rounded-xl bg-[#DE2301]/8 -z-10" />
               <div className="absolute -top-4 -left-4 w-20 h-20 rounded-xl bg-[#1a2f5e]/5 -z-10" />
@@ -163,32 +124,6 @@ const HomePage = () => {
                 </Link>
               </div>
             </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* ABOUT STATS */}
-      <section className="py-20 bg-[#1a2f5e] relative overflow-hidden">
-        <div className="absolute inset-0 opacity-[0.03]" style={{
-          backgroundImage: `radial-gradient(circle at 1px 1px, white 1px, transparent 0)`,
-          backgroundSize: '40px 40px'
-        }} />
-        <div className="container relative">
-          <h2 className="text-2xl md:text-3xl font-bold text-center text-white mb-14">{t('about.statsTitle')}</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {aboutStats.map((stat, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className="text-center"
-              >
-                <div className="text-4xl md:text-5xl font-bold text-[#DE2301] mb-2">{stat.value}</div>
-                <div className="text-white/55 text-sm font-medium">{stat.label}</div>
-              </motion.div>
-            ))}
           </div>
         </div>
       </section>
