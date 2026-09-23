@@ -1,41 +1,41 @@
 {
+  "meta": {
+    "contactTitle": "Kontakt | Infra-Beton ApS",
+    "notFoundTitle": "Siden blev ikke fundet | Infra-Beton ApS"
+  },
   "nav": {
     "home": "Hjem",
     "about": "Om os",
     "services": "Ydelser",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "openMenu": "Åbn menu",
+    "closeMenu": "Luk menu"
   },
   "hero": {
-    "title": "Vi bygger Danmarks fremtid i beton",
-    "subtitle": "Driftsikkert betonelement-produktion til infrastruktur, lufthavne og kommercielle projekter i hele Skandinavien.",
-    "cta": "Kontakt os"
+    "titleLine1": "Vi bygger",
+    "titleHighlight": "Danmarks",
+    "titleLine3": "fremtid i beton",
+    "subtitle": "Driftsikker betonelement-produktion til infrastruktur, lufthavne og kommercielle projekter i hele Skandinavien.",
+    "cta": "Kontakt os",
+    "secondaryCta": "Om os",
+    "imageAlt": "Betonarbejde på lufthavnsanlæg"
   },
   "home": {
+    "introEyebrow": "Vores tilgang",
     "introTitle": "Pålidelige betonløsninger fra dag ét",
-    "introText": "Vi specialiserer os i betonarbejde til lufthavne og tung infrastruktur. Med fokus på præcision, holdbarhed og overholdelse af internationale standarder leverer vi løsninger der holder — også under de hårdeste forhold.",
-    "stat1Value": "25+",
-    "stat1Label": "Års erfaring",
-    "stat2Value": "500+",
-    "stat2Label": "Projekter gennemført",
-    "stat3Value": "100%",
-    "stat3Label": "Kvalitetscertificeret"
+    "introText": "Vi specialiserer os i betonarbejde til lufthavne og tung infrastruktur. Med fokus på præcision, holdbarhed og overholdelse af internationale standarder leverer vi løsninger der holder — også under de hårdeste forhold."
   },
   "about": {
+    "eyebrow": "Virksomheden",
     "title": "Om Infra-Beton ApS",
     "text1": "Infra-Beton ApS er en dansk betonvirksomhed med base i Aabenraa. Vi udfører betonarbejde til krævende projekter inden for luftfart og infrastruktur, hvor kravene til kvalitet og dokumentation er høje.",
     "text2": "Vores kernekompetence er lufthavnsrelateret betonarbejde — herunder forsegling og renovering af landingsbaner, rullebaner og forpladser. Vi arbejder efter internationale luftfartsstandarder og samarbejder tæt med bygherrer og rådgivere gennem hele projektforløbet.",
     "text3": "Vi er en mindre, specialiseret virksomhed, hvilket betyder kort beslutningsvej, direkte kommunikation og personligt ansvar for kvaliteten i hvert enkelt projekt.",
-    "statsTitle": "Vores resultater",
-    "stat1Value": "25+",
-    "stat1Label": "Års erfaring",
-    "stat2Value": "500+",
-    "stat2Label": "Projekter leveret",
-    "stat3Value": "50+",
-    "stat3Label": "Lufthavnsprojekter",
-    "stat4Value": "120+",
-    "stat4Label": "Teammedlemmer"
+    "cta": "Kom i kontakt",
+    "imageAlt": "Lufthavnsanlæg"
   },
   "services": {
+    "eyebrow": "Hvad vi tilbyder",
     "title": "Vores ydelser",
     "subtitle": "Omfattende betonløsninger til alle projektstørrelser",
     "service1Title": "Betonelement-produktion",
@@ -45,14 +45,28 @@
     "service3Title": "Infrastrukturløsninger",
     "service3Text": "Betonarbejde til større infrastrukturprojekter som veje, broer og industrianlæg. Vi påtager os opgaver der kræver teknisk ekspertise og evnen til at arbejde under komplekse forhold."
   },
+  "ctaBanner": {
+    "title": "Klar til dit næste projekt?",
+    "text": "Vi rådgiver gerne om den bedste løsning til dine behov.",
+    "button": "Kontakt os"
+  },
   "contact": {
+    "eyebrow": "Skriv til os",
     "title": "Kontakt os",
     "subtitle": "Klar til at drøfte dit næste projekt? Kontakt vores team.",
     "infoTitle": "Kontaktoplysninger",
+    "personRole": "Direktør",
+    "phoneItemLabel": "Telefon",
+    "emailItemLabel": "E-mail",
+    "addressItemLabel": "Adresse",
+    "companyItemLabel": "Virksomhed",
     "company": "Infra-Beton ApS",
     "address": "Lundsbjerg Industrivej 14, 6200 Aabenraa",
     "phone": "+45 20 26 39 03",
     "email": "info@infra-beton.dk",
+    "responseBefore": "Vi bestræber os på at svare inden for",
+    "responseHighlight": "1 arbejdsdag",
+    "responseAfter": ". Til akutte henvendelser, ring direkte på ovenstående nummer.",
     "formTitle": "Send os en besked",
     "nameLabel": "Navn",
     "namePlaceholder": "Dit fulde navn",
@@ -63,13 +77,19 @@
     "messageLabel": "Besked",
     "messagePlaceholder": "Fortæl os om dit projekt...",
     "submit": "Send besked",
+    "sending": "Sender...",
     "successTitle": "Besked sendt!",
     "successText": "Tak for din besked. Vi vender tilbage hurtigst muligt.",
+    "errorText": "Beskeden kunne ikke sendes. Prøv igen, eller ring til os på +45 20 26 39 03.",
     "requiredField": "Dette felt er påkrævet",
     "invalidEmail": "Indtast venligst en gyldig e-mailadresse"
   },
+  "notFound": {
+    "text": "Siden blev ikke fundet",
+    "back": "Tilbage til forsiden"
+  },
   "footer": {
-    "description": "Driftsikkert betonelement-produktion til infrastruktur og lufthavnsprojekter i Danmark og Skandinavien.",
+    "description": "Driftsikker betonelement-produktion til infrastruktur og lufthavnsprojekter i Danmark og Skandinavien.",
     "quickLinks": "Genveje",
     "contactInfo": "Kontaktoplysninger",
     "rights": "Alle rettigheder forbeholdes."

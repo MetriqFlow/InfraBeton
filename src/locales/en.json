@@ -1,58 +1,72 @@
 {
+  "meta": {
+    "contactTitle": "Contact | Infra-Beton ApS",
+    "notFoundTitle": "Page not found | Infra-Beton ApS"
+  },
   "nav": {
     "home": "Home",
     "about": "About Us",
-    "services": "Our Services",
-    "contact": "Contact"
+    "services": "Services",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "hero": {
-    "title": "Building Denmark's Future in Concrete",
-    "subtitle": "Premium concrete element manufacturing for infrastructure, airports, and commercial projects across Scandinavia.",
-    "cta": "Contact Us"
+    "titleLine1": "Building",
+    "titleHighlight": "Denmark's",
+    "titleLine3": "future in concrete",
+    "subtitle": "Reliable concrete element production for infrastructure, airports and commercial projects across Scandinavia.",
+    "cta": "Contact Us",
+    "secondaryCta": "About Us",
+    "imageAlt": "Concrete works at an airport facility"
   },
   "home": {
-    "introTitle": "Trusted Concrete Solutions Since Day One",
-    "introText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    "stat1Value": "25+",
-    "stat1Label": "Years of Experience",
-    "stat2Value": "500+",
-    "stat2Label": "Projects Completed",
-    "stat3Value": "100%",
-    "stat3Label": "Quality Certified"
+    "introEyebrow": "Our approach",
+    "introTitle": "Reliable concrete solutions from day one",
+    "introText": "We specialise in concrete works for airports and heavy infrastructure. With a focus on precision, durability and compliance with international standards, we deliver solutions that last — even under the harshest conditions."
   },
   "about": {
+    "eyebrow": "The company",
     "title": "About Infra-Beton ApS",
-    "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel mauris eget lacus tincidunt ultricies. Fusce id sapien at nunc fermentum vestibulum vel sed justo. Nullam auctor, nunc eget aliquam tincidunt, nisi nisl aliquam nunc, vitae aliquam nunc nisi vel nunc.",
-    "text2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    "text3": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
-    "statsTitle": "Our Track Record",
-    "stat1Value": "25+",
-    "stat1Label": "Years of Experience",
-    "stat2Value": "500+",
-    "stat2Label": "Projects Delivered",
-    "stat3Value": "50+",
-    "stat3Label": "Airport Projects",
-    "stat4Value": "120+",
-    "stat4Label": "Team Members"
+    "text1": "Infra-Beton ApS is a Danish concrete company based in Aabenraa. We carry out concrete works for demanding aviation and infrastructure projects where the requirements for quality and documentation are high.",
+    "text2": "Our core competence is airport-related concrete works — including sealing and renovation of runways, taxiways and aprons. We work to international aviation standards and collaborate closely with clients and consultants throughout the entire project.",
+    "text3": "We are a smaller, specialised company, which means short decision paths, direct communication and personal responsibility for the quality of every single project.",
+    "cta": "Get in touch",
+    "imageAlt": "Airport facility"
   },
   "services": {
+    "eyebrow": "What we offer",
     "title": "Our Services",
-    "subtitle": "Comprehensive concrete solutions for every project scale",
-    "service1Title": "Concrete Element Manufacturing",
-    "service1Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Custom precast elements for structural and architectural applications.",
+    "subtitle": "Comprehensive concrete solutions for projects of every size",
+    "service1Title": "Concrete Element Production",
+    "service1Text": "Supply and installation of concrete elements for infrastructure projects. We work with prefabricated solutions tailored to each project's specific requirements for load capacity and durability.",
     "service2Title": "Airport Concrete Sealing",
-    "service2Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Specialized sealing solutions for airport runways, taxiways, and aprons meeting international aviation standards.",
+    "service2Text": "Specialised sealing and renovation of concrete surfaces at airports — runways, taxiways and aprons. We work in accordance with international aviation standards and are used to operating under strict safety and documentation requirements.",
     "service3Title": "Infrastructure Solutions",
-    "service3Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Large-scale infrastructure concrete work including bridges, tunnels, and commercial foundation systems."
+    "service3Text": "Concrete works for larger infrastructure projects such as roads, bridges and industrial facilities. We take on assignments that require technical expertise and the ability to work under complex conditions."
+  },
+  "ctaBanner": {
+    "title": "Ready for your next project?",
+    "text": "We are happy to advise on the best solution for your needs.",
+    "button": "Contact Us"
   },
   "contact": {
+    "eyebrow": "Write to us",
     "title": "Get In Touch",
     "subtitle": "Ready to discuss your next project? Reach out to our team.",
     "infoTitle": "Contact Information",
+    "personRole": "Managing Director",
+    "phoneItemLabel": "Phone",
+    "emailItemLabel": "Email",
+    "addressItemLabel": "Address",
+    "companyItemLabel": "Company",
     "company": "Infra-Beton ApS",
-    "address": "Lundsbjerg Industrivej 14, 6200 Aabenraa",
-    "phone": "+45 XX XX XX XX",
+    "address": "Lundsbjerg Industrivej 14, 6200 Aabenraa, Denmark",
+    "phone": "+45 20 26 39 03",
     "email": "info@infra-beton.dk",
+    "responseBefore": "We aim to reply within",
+    "responseHighlight": "1 business day",
+    "responseAfter": ". For urgent enquiries, please call the number above.",
     "formTitle": "Send Us a Message",
     "nameLabel": "Name",
     "namePlaceholder": "Your full name",
@@ -63,13 +77,19 @@
     "messageLabel": "Message",
     "messagePlaceholder": "Tell us about your project...",
     "submit": "Send Message",
+    "sending": "Sending...",
     "successTitle": "Message Sent!",
     "successText": "Thank you for your message. We will get back to you as soon as possible.",
+    "errorText": "Your message could not be sent. Please try again, or call us on +45 20 26 39 03.",
     "requiredField": "This field is required",
     "invalidEmail": "Please enter a valid email address"
   },
+  "notFound": {
+    "text": "Page not found",
+    "back": "Back to the homepage"
+  },
   "footer": {
-    "description": "Premium concrete element manufacturing for infrastructure and airport projects across Denmark and Scandinavia.",
+    "description": "Reliable concrete element production for infrastructure and airport projects in Denmark and Scandinavia.",
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Info",
     "rights": "All rights reserved."
