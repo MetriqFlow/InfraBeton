@@ -1,17 +1,13 @@
 import { Suspense, lazy } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { Toaster } from "@/components/ui/toaster";
-import { TooltipProvider } from "@/components/ui/tooltip";
+import { MotionConfig } from "framer-motion";
 import Index from "./pages/Index.tsx";
 
 const Contact = lazy(() => import("./pages/Contact.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 
 const App = () => (
-  <TooltipProvider>
-    <Toaster />
-    <Sonner />
+  <MotionConfig reducedMotion="user">
     <BrowserRouter>
       <Suspense fallback={null}>
         <Routes>
@@ -21,7 +17,7 @@ const App = () => (
         </Routes>
       </Suspense>
     </BrowserRouter>
-  </TooltipProvider>
+  </MotionConfig>
 );
 
 export default App;

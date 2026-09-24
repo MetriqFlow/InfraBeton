@@ -1,24 +1,25 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { MapPin, Phone, Mail, ArrowUpRight } from 'lucide-react';
+import { MAPS_URL, PHONE_HREF } from '@/lib/contact';
 
 const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer className="bg-[#0f1e3c] text-white">
+    <footer className="bg-navy-deep text-white">
       <div className="container py-14">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Brand */}
           <div>
             <h3 className="font-bold text-lg mb-3 tracking-tight">INFRA-BETON ApS</h3>
             <p className="text-white/50 text-sm leading-relaxed mb-5">{t('footer.description')}</p>
-            <div className="w-10 h-0.5 bg-[#DE2301]" />
+            <div className="w-10 h-0.5 bg-brand" />
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-xs font-semibold uppercase tracking-widest mb-5 text-[#DE2301]">
+            <h4 className="text-xs font-semibold uppercase tracking-widest mb-5 text-brand">
               {t('footer.quickLinks')}
             </h4>
             <nav className="flex flex-col gap-3">
@@ -42,27 +43,27 @@ const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h4 className="text-xs font-semibold uppercase tracking-widest mb-5 text-[#DE2301]">
+            <h4 className="text-xs font-semibold uppercase tracking-widest mb-5 text-brand">
               {t('footer.contactInfo')}
             </h4>
-            <div className="space-y-3">
-              <div className="flex items-start gap-2.5 text-sm text-white/50">
-                <MapPin size={14} className="text-[#DE2301] mt-0.5 shrink-0" />
+            <div className="space-y-3 text-sm text-white/50">
+              <a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="flex items-start gap-2.5 hover:text-white transition-colors">
+                <MapPin size={14} className="text-brand mt-0.5 shrink-0" />
                 <span>Lundsbjerg Industrivej 14<br />6200 Aabenraa, Denmark</span>
-              </div>
-              <div className="flex items-center gap-2.5 text-sm text-white/50">
-                <Phone size={14} className="text-[#DE2301] shrink-0" />
+              </a>
+              <a href={PHONE_HREF} className="flex items-center gap-2.5 hover:text-white transition-colors">
+                <Phone size={14} className="text-brand shrink-0" />
                 {t('contact.phone')}
-              </div>
-              <div className="flex items-center gap-2.5 text-sm text-white/50">
-                <Mail size={14} className="text-[#DE2301] shrink-0" />
-                info@infra-beton.dk
-              </div>
+              </a>
+              <a href={`mailto:${t('contact.email')}`} className="flex items-center gap-2.5 hover:text-white transition-colors">
+                <Mail size={14} className="text-brand shrink-0" />
+                {t('contact.email')}
+              </a>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-white/8 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-white/30">
+        <div className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-white/30">
           <span>© {new Date().getFullYear()} Infra-Beton ApS. {t('footer.rights')}</span>
           <span>CVR: 46270495</span>
         </div>
